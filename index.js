@@ -5,9 +5,9 @@ const connection = new Gpio( 23, 'out' );
 
 // Send high
 connection.writeSync(Gpio.HIGH);
+connection.writeSync(Gpio.LOW);
 
 // Wait 1000 ms
-setTimeout(function () {
-  // Send low
-  connection.writeSync(Gpio.LOW);
-}, 1);
+// setTimeout(function () {
+//   Send low
+// }, 1);
