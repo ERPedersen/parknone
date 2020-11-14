@@ -7,4 +7,4 @@ connection.writeSync(Gpio.HIGH);
 
 setTimeout(function () {
   connection.writeSync(Gpio.LOW);
-}, 5000);
+}, 50);
